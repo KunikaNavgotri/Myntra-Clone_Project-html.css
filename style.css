@@ -1,0 +1,157 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+
+/*HEADER SECTION*/
+
+header {
+    display: flex;
+    background-color:#f8f1f7;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid rgb(223, 222, 222);
+}
+
+.myntra_home {
+    height: 50px;
+}
+
+.logo_container {
+   margin-left:5%;
+}
+
+.action_bar {
+    margin-right: 5%;
+}
+
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #282c3f;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 28px 0;
+}
+
+.nav_bar a:hover {
+    border-bottom: 5px solid rgba(121, 2, 2, 0.534);
+}
+
+nav a sup {
+    color: #3c07fc;
+    font-size: 10px;
+}
+
+.search_bar {
+     height: 40px;
+     min-width: 30%;
+     display: flex;
+     align-items: center;
+}
+
+.search_icon {
+    height: 20px;
+    padding: 10px;
+    box-sizing: content-box;
+
+    color: rgb(73, 73, 73);
+    background-color: rgb(250, 252, 252);
+    font-weight: 300;
+    border-radius: 4px 0 0 4px;
+}
+
+.search_input {
+   color: rgb(73, 73, 73);
+   background-color: rgb(250, 252, 252);
+   flex-grow: 1;
+   height: 40px;
+   border: 0;
+   border-radius: 0 4px 4px 0;
+}
+
+.action_bar{
+    display: flex;
+    min-width: 200px;
+    justify-content: space-evenly;
+}
+
+.action_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*MAIN SECTION*/
+
+.banner_container {
+    margin:40px 0;
+}
+
+.banner_image {
+   width: 100%; 
+}
+
+.category_heading {
+    text-transform: uppercase;
+    color: #4a4f69;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+
+.category_items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sale-item{
+   width: 250px;
+}
+
+/*footer section*/
+
+.footer_container{
+    padding: 30px 0px 40px 0;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_colum{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_colum h3 {
+    color: black;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_colum a{
+    color: #282c3f;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.copyright {
+    color: cornflowerblue;
+    text-align: end;
+    padding: 15px; 
+}
