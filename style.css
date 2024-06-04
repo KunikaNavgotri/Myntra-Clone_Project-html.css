@@ -157,24 +157,3 @@ nav a sup {
     padding: 15px; 
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-    .nav_bar {
-       display: flex;
-        min-width: 100%;
-    }
-
-    .search_bar {
-        min-width: 30%;
-    }
-
-    .action_bar {
-        flex-direction: column;
-    }
-
-    .category_items {
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
-}
