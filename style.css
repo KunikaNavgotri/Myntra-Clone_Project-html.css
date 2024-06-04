@@ -160,12 +160,12 @@ nav a sup {
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav_bar {
-        flex-direction: column;
+       display: flex;
         min-width: 100%;
     }
 
     .search_bar {
-        min-width: 100%;
+        min-width: 30%;
     }
 
     .action_bar {
@@ -173,7 +173,8 @@ nav a sup {
     }
 
     .category_items {
-        flex-direction: column;
-        align-items: center;
+        display: flex;
+        flex-wrap: wrap;
+        
     }
 }
